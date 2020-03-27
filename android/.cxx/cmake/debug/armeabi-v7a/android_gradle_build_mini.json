@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "/Users/shenjinkun/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/abi-armeabi-v7a/OpenCVConfig.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/abi-armeabi-v7a/OpenCVModules-release.cmake",
+    "/Users/shenjinkun/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/CMakeLists.txt",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/abi-armeabi-v7a/OpenCVModules.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/shenjinkun/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/shenjinkun/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hyperlpr-Debug-armeabi-v7a": {
+      "artifactName": "hyperlpr",
+      "buildCommand": "/Users/shenjinkun/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a\" hyperlpr",
+      "abi": "armeabi-v7a",
+      "output": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/example/build/hyperlpr_flutter/intermediates/cmake/debug/obj/armeabi-v7a/libhyperlpr.so"
+    }
+  }
+}

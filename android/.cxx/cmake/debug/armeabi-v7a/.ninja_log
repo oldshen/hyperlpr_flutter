@@ -1,0 +1,13 @@
+# ninja log v5
+10	7979	1585018980	CMakeFiles/hyperlpr.dir/src/Recognizer.cpp.o	33422e9e88b34d0c
+2	8047	1585018980	CMakeFiles/hyperlpr.dir/src/CNNRecognizer.cpp.o	50df0763be111b1b
+3	8071	1585018980	CMakeFiles/hyperlpr.dir/src/FastDeskew.cpp.o	eb299465a6cddca4
+12	8358	1585018980	CMakeFiles/hyperlpr.dir/src/SegmentationFreeRecognizer.cpp.o	b1906fe58e263bd0
+8	8434	1585018980	CMakeFiles/hyperlpr.dir/src/PlateDetection.cpp.o	702cba44bd5ce523
+5	8494	1585018980	CMakeFiles/hyperlpr.dir/src/FineMapping.cpp.o	57d916b193602dba
+6	8549	1585018981	CMakeFiles/hyperlpr.dir/src/Pipeline.cpp.o	67b6dd42353068b7
+0	8592	1585018981	CMakeFiles/hyperlpr.dir/javaWarpper.cpp.o	819ee79a1f89a713
+9	8647	1585018981	CMakeFiles/hyperlpr.dir/src/PlateSegmentation.cpp.o	1cfd565a635371e0
+8647	9851	1585018982	/Users/development/flutterCodes/carnumber/hyperlpr_flutter/example/build/hyperlpr_flutter/intermediates/cmake/debug/obj/armeabi-v7a/libhyperlpr.so	dc30d4e0ecc7d10c
+4	1664	1585019277	/Users/development/flutterCodes/carnumber/hyperlpr_flutter/example/build/hyperlpr_flutter/intermediates/cmake/debug/obj/armeabi-v7a/libhyperlpr.so	dc30d4e0ecc7d10c
+31	2811	1585126003	/Users/development/flutterCodes/carnumber/hyperlpr_flutter/example/build/hyperlpr_flutter/intermediates/cmake/debug/obj/armeabi-v7a/libhyperlpr.so	dc30d4e0ecc7d10c

@@ -1,0 +1,62 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shenjk.hyperlpr_flutter_example">
+    <!-- io.flutter.app.FlutterApplication is an android.app.Application that
+         calls FlutterMain.startInitialization(this); in its onCreate method.
+         In most cases you can leave this as-is, but you if you want to provide
+         additional functionality it is fine to subclass or reimplement
+         FlutterApplication and put your custom class here. -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 4.2以上的手机需要的权限 -->
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <!-- 访问INTERNET的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- 手机信息 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- ************************************* -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 在SD卡中创建文件与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 传感器 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 摄像头权限 -->
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-permission android:name="com.meilapp.meila.permission.MIPUSH_RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 开启闪光灯权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="hyperlpr_flutter_example"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+</manifest>

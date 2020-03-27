@@ -1,0 +1,7 @@
+Executable : /Users/shenjinkun/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/arm64-v8a
+hyperlpr
+jvmArgs : 
+

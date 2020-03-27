@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.shenjk.hyperlpr_flutter">
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.camera" />
+  <uses-feature android:name="android.hardware.camera.autofocus" />
+</manifest>

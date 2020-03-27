@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

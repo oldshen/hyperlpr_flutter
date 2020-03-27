@@ -1,0 +1,87 @@
+{
+  "stringTable": {
+    "0": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/shenjinkun/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/shenjinkun/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhyperlpr_EXPORTS -isystem /Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/shenjinkun/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/abi-armeabi-v7a/OpenCVConfig.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/abi-armeabi-v7a/OpenCVModules-release.cmake",
+    "/Users/shenjinkun/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/CMakeLists.txt",
+    "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/opencv420/sdk/native/jni/abi-armeabi-v7a/OpenCVModules.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/shenjinkun/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/shenjinkun/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hyperlpr-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/shenjinkun/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/.cxx/cmake/debug/armeabi-v7a\" hyperlpr",
+      "buildType": "debug",
+      "toolchain": "2573522329",
+      "abi": "armeabi-v7a",
+      "artifactName": "hyperlpr",
+      "files": [
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/javaWarpper.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/CNNRecognizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/FastDeskew.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/FineMapping.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/Pipeline.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/PlateDetection.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/PlateSegmentation.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/Recognizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/android/src/main/cpp/src/SegmentationFreeRecognizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/development/flutterCodes/carnumber/hyperlpr_flutter/example/build/hyperlpr_flutter/intermediates/cmake/debug/obj/armeabi-v7a/libhyperlpr.so"
+    }
+  },
+  "toolchains": {
+    "2573522329": {
+      "cppCompilerExecutable": "/Users/shenjinkun/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
